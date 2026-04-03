@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: agentic-customer-support-olap
+Version: 0.1.0
+Summary: Multi-Agent OLAP benchmark on TPC-H via LLM-driven analytical queries
+Requires-Python: >=3.10
+Requires-Dist: openai>=1.0
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: pymysql>=1.1
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: cryptography
+Requires-Dist: backoff>=2.0
+Requires-Dist: httpx[socks]
